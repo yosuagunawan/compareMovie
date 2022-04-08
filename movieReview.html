@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="./movieReviewStyle.css">
+    <link rel="shortcut icon" href="./Emoji-Lumba-Lumba-Microsoft.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Review</h1>
+    </header>
+    <div class="add">
+        <input type="text" placeholder="Add a Movie">
+        <button class="addMovie">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </div>
+    <div class="movie">
+        <div class="container">
+            <div class="column">
+                <h3>Not Reviewed</h3>
+                <ul class="notReviewed">
+
+                </ul>
+            </div>
+
+            <div class="column">
+                <h3>Awesome <i class="fa-solid fa-fire"></i></h3>
+                <ul class="awesome">
+
+                </ul>
+            </div>
+
+
+            <div class="column">
+                <h3>Thumbs Up <i class="fa-solid fa-thumbs-up"></i></h3>
+                <ul class="thumbsUp">
+
+                </ul>
+            </div>
+
+
+            <div class="column">
+                <h3>Thumbs Down <i class="fa-solid fa-thumbs-down"></i></h3>
+                <ul class="bad">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="./movieReviewApp.JS"></script>
+
+</body>
+
+</html>
